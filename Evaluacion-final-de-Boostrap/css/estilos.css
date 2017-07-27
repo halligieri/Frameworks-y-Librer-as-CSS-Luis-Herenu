@@ -1,0 +1,281 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nopadding {
+  padding: 0px;
+  margin: 0px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+    border: 0px;
+    min-height: 50px;
+    height: 100%;
+}
+.body {
+  background-color: black;
+}
+
+img {
+  float: left;
+}
+
+.social1 {
+  margin-right: 7px;
+}
+
+
+
+.header {
+  min-height: 150px;
+  background-color: green;
+  margin: 0px;
+  background-color:rgb(39, 227, 246);
+}
+
+.header1  img {
+  margin-top: 95px;
+  float: left;
+}
+
+
+
+
+.navbar {
+  background-color:white;
+  border-radius: 0px!important;
+  margin: 0px;
+  height: 75px;
+
+}
+
+
+.boton{
+  background-color: rgb(39, 227, 246);
+  margin-top: 10px;
+  margin-left: 0.52%;
+  list-style:none;
+  float: left;
+  width:150px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  font-size: 1.65em;
+  padding: 7px;
+  }
+
+ .boton1{
+  background-color: rgb(39, 227, 246);
+  margin-top: 10px;
+  margin-left: 3.2%;
+  list-style:none;
+  float: left;
+  width:150px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  font-size: 1.65em;
+  padding: 7px;
+}
+
+.boton:hover {
+ background-color:rgb(157, 128, 209);
+}
+
+ .boton1:hover {
+  background-color:rgb(157, 128, 209);
+
+}
+.section {
+  background-color: white;
+  heigth:900px;
+
+}
+#contenedor1 {
+  background-color: white;
+  width:100%;
+  heigth:100%;
+}
+.aside {
+  margin-top: none;
+}
+
+.section1 {
+  background-color: rgb(217, 212, 214);
+  margin-top:10px;
+  margin-left: 10px;
+  margin-bottom: none;
+  padding:0px;
+  min-height: 200%;
+}
+.section2 {
+  background-color: rgb(217, 212, 214);
+
+
+}
+
+#comentario-1 {
+ width:95%;
+ border-radius: 4px 4px 4px 4px;
+
+}
+.row1 {
+  background-color:white;
+}
+.botonera {
+  margin-top:20px;
+  width:450px;
+}
+.btn-width1 {
+  width:450px;
+}
+.imagen1 img {
+  width: 95%;
+  margin-top: 35%;
+  float:left;
+  margin-right: 5px;
+  margin-bottom: 40%
+}
+.imagen2 img {
+  width: 95%;
+  margin-top: 35%;
+  margin-bottom: 40%
+  float:left;
+  margin-right: 5px;
+}
+.texto2 {
+  float:left;
+}
+
+.prueba {
+  float:right;
+  background-color: rgb(217, 212, 214);
+  margin-top:10px;
+  margin-right:10px;
+  width:450px;
+  height: 120px;
+}
+.busqueda {
+  background-color: rgb(176, 167, 170);
+  margin-top:25px;
+  width: 400px;
+  height: 60px;
+  margin-left: 24px;
+}
+#button_busqueda {
+  height: 20px;
+  border:none;
+}
+
+#imput1 {
+  width:92%;
+
+  margin-top: 10px;
+}
+#icono-busqueda {
+
+}
+#parrafo-buscar {
+  margin-left: 35px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+#lista-de-busqueda {
+  list-style:none;
+}
+
+.boton3{
+ background-color: rgb(39, 227, 246);
+ margin-top: 10px;
+ margin-left: 3.2%;
+ list-style:none;
+ float: left;
+ width:150px;
+ border-radius: 3px 3px 3px 3px;
+ text-align: center;
+ font-size: 1.65em;
+ padding: 7px;
+}
+
+
+
+
+@media (max-width: 450px) {
+  .header img{
+    margin-left: 30%;
+  }
+
+  .header1   {
+    margin-top: 2px;
+    margin-left: -8px;
+
+  }
+  .header1  img {
+    margin-top: 10px;
+    margin-left: none;
+
+  }
+  .social1 {
+    float:left;
+    margin-left:0px;
+  }
+  .columna-derecha {
+    heigth:800px;
+    width:300px;
+  }
+
+  .navbar {
+    text-align: center;
+    background-color:white;
+    border-radius: 0px!important;
+    margin: 0px;
+    height: 350px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .boton{
+    background-color: rgb(39, 227, 246);
+    margin-top: 10px;
+    margin-left: 18%;
+    list-style:none;
+    float: left;
+    width:150px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    font-size: 1.65em;
+    padding: 7px;
+    }
+
+   .boton1{
+    background-color: rgb(39, 227, 246);
+    margin-top: 10px;
+    margin-left: 18%;
+    list-style:none;
+    float: left;
+    width:150px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    font-size: 1.65em;
+    padding: 7px;
+  }
+
+  .boton1:hover {
+   background-color:rgb(157, 128, 209);
+  }
+
+   .boton1:hover {
+    background-color:rgb(157, 128, 209);
+  }
+  .aside-left {
+    display:none;
+  }
+
+}

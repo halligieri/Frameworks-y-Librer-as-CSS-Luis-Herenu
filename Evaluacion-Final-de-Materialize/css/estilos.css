@@ -1,0 +1,157 @@
+#body {
+  background-image: url("../imagenes/sidney.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+}
+
+.col1 {
+  background-color: red;
+  padding: 10px;
+  heigth:50px;
+}
+
+.col2 {
+  background-color: blue;
+  padding: 10px;
+  heigth:50px;
+}
+
+.col3 {
+  background-color: yellow;
+  heigth:50px;
+}
+
+#titulo {
+  margin-top:20px;
+}
+
+.imagen-logo {
+  margin-left:150px;
+}
+#img-social {
+
+  margin-bottom: 51px;
+}
+
+#img1, #img2 {
+  margin-left: 10px;
+}
+
+#img-central {
+  margin-left: 122px;
+}
+
+#img4, #img5 {
+  margin-left: 0px;
+}
+
+#img6 {
+  margin-top: 20px;
+}
+
+.container-publicacion {
+  background-color: white;
+  height: 500px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#parrafo-polinesia {
+  margin-left: 10px;
+
+}
+
+.container-publicacion2 {
+  margin-left: 5px;
+  background-color: white;
+  height: 500px;
+  margin-top: 20px;
+}
+
+#imagen-usuario {
+  border: 1px solid orange;
+  border-radius: 50%;
+  margin-left: 28%;
+  margin-top: 10px;
+}
+
+#perfil {
+  font-weight: bolder;
+  margin-left: 36%;
+  margin-top: 10px;
+}
+
+hr {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+#perfil1 {
+  margin-top: 10px;
+  margin-rigth: 20px;
+  margin-left: 20px;
+
+}
+
+#formulario {
+  background-color:rgb(38, 42, 126);
+  height: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#enviar {
+  background-color: white;
+  border-radius: 5px;
+  float:rigth;
+  width: 90px;
+}
+
+
+@media (max-width:415px) {
+
+  #img-logo {
+    margin-left: 3%;
+  }
+
+  .btn1 {
+    width:250px;
+    margin-bottom: 2px;
+    margin-left: 9%;
+    margin-top:20px;
+  }
+
+  #titulo h4 {
+    color: rgb(55, 241, 235);
+    text-align: center;
+  }
+
+  #img-social {
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+
+  #img1, #img2 {
+    margin-left:0px;
+    margin-right: 0px;
+  }
+  #img-central {
+    margin-left: 0px;
+  }
+
+  #img4, #img5 {
+    margin-left: -0px;
+  }
+
+  #enviar {
+    margin-left: -65px;
+  }
+
+  .container-publicacion {
+    background-color: white;
+    height: 1080px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+}
